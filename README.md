@@ -146,3 +146,9 @@ sha256sum access-evidence.log error-evidence.log
 ```
 
 Compare the resulting hashes with those in the manifest. The different local paths do not affect the file hashes.
+
+## Terminal Evidence
+
+Combined cropped excerpts from the investigation screenshots showing the requests, response counts, matching Apache denial and successful checksum verification.
+
+![Terminal investigation evidence](SOC-Investigation-Evidence.png)
