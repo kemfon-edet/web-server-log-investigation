@@ -6,7 +6,7 @@ I investigated suspicious requests recorded by the Apache web server hosting my 
 
 I identified a source requesting database backups, order exports and a possible payment log. I examined the requests, checked their response codes and correlated a forbidden response with the Apache error log.
 
-This was a guided learning investigation using activity recorded on my own lab server. I used documentation and AI assistance to develop commands and interpret results.
+This was a guided learning investigation using activity recorded on my own lab server. I used external learning resources, documentation and AI guidance to support the investigation, develop commands and interpret results. I checked the findings against the access and error log entries.
 
 ## Investigation Questions
 
