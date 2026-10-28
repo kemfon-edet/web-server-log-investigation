@@ -2,7 +2,7 @@
 
 ## Overview
 
-I investigated suspicious requests recorded by the Apache web server hosting my AWS PrestaShop demo store.
+I investigated suspicious requests recorded by the Apache web server hosting my [AWS PrestaShop demo store](https://github.com/kemfon-edet/aws-prestashop-deployment).
 
 I identified a source requesting database backups, order exports and a possible payment log. I examined the requests, checked their response codes and correlated a forbidden response with the Apache error log.
 
