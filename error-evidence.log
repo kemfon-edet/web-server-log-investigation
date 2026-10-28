@@ -1,0 +1,1 @@
+[Wed Oct 28 06:42:56.985594 2026] [authz_core:error] [pid 44095] [client 195.189.249.77:57023] AH01630: client denied by server configuration: /var/www/prestashop/var/logs/payments.log
