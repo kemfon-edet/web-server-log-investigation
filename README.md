@@ -132,3 +132,17 @@ These are recommendations. No IP blocking or configuration changes were performe
 - A redirect does not prove a download succeeded.
 - Findings should distinguish observations from interpretation.
 - Evidence should be preserved before making changes.
+
+## Evidence Files
+
+- [Access-log extract: 14 requests](access-evidence.log)
+- [Error-log extract: matching Apache denial](error-evidence.log)
+- [Original SHA-256 checksum manifest](SHA256SUMS.txt)
+
+The original manifest contains absolute paths from the Ubuntu server. After downloading the files, verify their contents from the download directory with:
+
+```bash
+sha256sum access-evidence.log error-evidence.log
+```
+
+Compare the resulting hashes with those in the manifest. The different local paths do not affect the file hashes.
